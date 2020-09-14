@@ -2,17 +2,17 @@ package com.nur.bookstore.model;
 
 public class Inquiry {
 
-    public String searchStrings;
+    public String searchString;
 
     public Inquiry() {
-        this.searchStrings = searchStrings;
+        this.searchString = searchString;
     }
 
-    public String getSearchStrings() {
-        return searchStrings;
+    public String getSearchString() {
+        return searchString;
     }
 
-    public void setSearchStrings(String searchStrings) {
-        this.searchStrings = searchStrings;
+    public void setSearchString(String searchString) {
+        this.searchString = searchString;
     }
 }

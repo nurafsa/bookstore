@@ -34,7 +34,7 @@ public class HomeController {
 
     @PostMapping("/author")
     public String searchAuthor(Model model, @ModelAttribute Inquiry inquiry){
-        String authorName = inquiry.getSearchStrings();
+        String authorName = inquiry.getSearchString();
         model.addAttribute("authors", homeService.searchedAuthors(authorName));
         return "author";
     }
